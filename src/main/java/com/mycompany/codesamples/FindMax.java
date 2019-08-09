@@ -3,25 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.findmax;
+package com.mycompany.codesamples;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 /**
- *
  * @author baur
  */
 public class FindMax {
     public static void main(String[] args) {
         Integer[] nums = {2, 5, 7, 1, 3, 2};
-        System.out.println("Max number is : " + v0(nums));
+        System.out.println("Max number is : " + findMaxNumber(nums));
         
         Integer[] nums2 = {2, 5, 7, 1, 3, 9};
-        System.out.println("Max number is : " + v1(nums2));
+        System.out.println("Max number is : " + findMaxNumber2(nums2));
     }
     
-    public static int v0(Integer [] nums) {
+    public static int findMaxNumber(Integer [] nums) {
         int max = 0;
         if (nums.length > 0) {
             max = Collections.max(Arrays.asList(nums));
@@ -29,7 +28,7 @@ public class FindMax {
         return max;
     }
     
-    public static int v1(Integer [] nums) {
+    public static int findMaxNumber2(Integer [] nums) {
         int max = 0;
         if (nums.length > 0) {
             max = nums[0];

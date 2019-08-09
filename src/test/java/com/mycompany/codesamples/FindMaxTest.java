@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.findmax;
+package com.mycompany.codesamples;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- *
  * @author baur
  */
 public class FindMaxTest {
@@ -18,54 +17,54 @@ public class FindMaxTest {
     private int expected;
     
     @Test
-    public void testV0() {
+    public void testFindMaxNumber() {
         Integer[] nums = {2, 5, 7, 1, 3, 2};
         expected = 7;
         
-        assertEquals(expected, func.v0(nums));
+        assertEquals(expected, func.findMaxNumber(nums));
         
     }
     
     @Test
-    public void testV0Empty() {
+    public void testFindMaxNumberEmpty() {
         Integer[] nums = {};
         expected = 0;
         
-        assertEquals(expected, func.v0(nums));
+        assertEquals(expected, func.findMaxNumber(nums));
     }
     
     @Test
-    public void testV0Negative() {
+    public void testFindMaxNumberNegative() {
         Integer[] nums = {-2, 5, -7, -1, 3, 0};
         expected = 5;
         
-        assertEquals(expected, func.v0(nums));
+        assertEquals(expected, func.findMaxNumber(nums));
         
     }
     
     @Test
-    public void testV1() {
+    public void testFindMaxNumber2() {
         Integer[] nums = {2, 5, 7, 1, 3, 9};
         expected = 9;
         
-        assertEquals(expected, func.v1(nums));
+        assertEquals(expected, func.findMaxNumber2(nums));
         
     }
     
     @Test
-    public void testV1Empty() {
+    public void testFindMaxNumber2Empty() {
         Integer[] nums = {};
         expected = 0;
         
-        assertEquals(expected, func.v1(nums));
+        assertEquals(expected, func.findMaxNumber2(nums));
     }
     
     @Test
-    public void testV1Negative() {
+    public void testFindMaxNumber2Negative() {
         Integer[] nums = {-2, 4, -7, -1, 0, 0};
         expected = 4;
         
-        assertEquals(expected, func.v1(nums));
+        assertEquals(expected, func.findMaxNumber2(nums));
         
     }
     
