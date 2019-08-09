@@ -14,8 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class FindMaxTest {
     
-    FindMax func = new FindMax();
-    int expected;
+    private FindMax func = new FindMax();
+    private int expected;
     
     @Test
     public void testV0() {
