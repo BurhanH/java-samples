@@ -10,6 +10,6 @@ The idea is to show my knowledge and an ability to write Java code. Plus enhance
 
 ### How it works
 
-I'm writing simple an algorithm on Java by adding one simple realization. Definitely before writing actual code I preparing a unit test for it. Then I pushing the code as PR into the main repository. And after some time (approximately 2-4 minutes) checking results. I mean checking Travis CI (are there errors?), checking Codacity (Is my PR up to coding standards?). If there are no errors. I'm merging the PR into the master branch and those changes become a part of the main repository.
+I'm writing simple an algorithm on Java by adding one simple realization. Definitely before writing actual code I'm preparing a unit test for it. Then I'm pushing the code as PR into the main repository. And after some time (approximately 2-4 minutes) checking results. I mean checking Travis CI (are there errors?), checking Codacity (Is my PR up to coding standards?). If there are no errors I'm merging the PR into the master branch and those changes become a part of the main repository. If there are errors I'm making new commit into the PR to fix errors. Then repiting a process from step 4 (sentence 4 of this paragraph) utill changes will be merged with master branch.
 
 To be continue ...
