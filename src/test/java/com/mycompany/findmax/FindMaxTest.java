@@ -65,7 +65,7 @@ public class FindMaxTest {
         Integer[] nums = {-2, 4, -7, -1, 0, 0};
         expected = 4;
         
-        assertEquals(expected, func.v0(nums));
+        assertEquals(expected, func.v1(nums));
         
     }
     
