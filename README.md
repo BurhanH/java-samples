@@ -6,7 +6,7 @@
 
 ## Main purpose
 
-The idea is to show my knowledge and an ability to write Java code. Plus enhance coding skills.
+The idea is show my knowledge and an ability write Java code. Plus enhance coding skills.
 
 ### How it works
 
