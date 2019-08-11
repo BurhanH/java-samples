@@ -12,13 +12,6 @@ import java.util.Collections;
  * @author baur
  */
 public class FindMin {
-    public static void main(String[] args) {
-        Integer[] nums = {2, 5, 7, 1, 3, 2};
-        System.out.println("Min number is : " + findMinNumber(nums));
-        
-        Integer[] nums2 = {9, 5, -1, 4, 78, 0};
-        System.out.println("Min number is : " + findMinNumber(nums2));
-    }
     
     public static int findMinNumber(Integer [] nums) {
         int min = 0;
