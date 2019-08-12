@@ -12,9 +12,9 @@ package com.mycompany.codesamples;
 public class ReverseArray {
     
     static int[] reverse(int array[]) {
-        int n = array.length, j = n;
+        int i, n = array.length, j = n;
         int[] reversed = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (i = 0; i < n; i++) {
             reversed[j - 1] = array[i];
             j -= 1;
         }
