@@ -25,4 +25,22 @@ public class FindSecondMaxTest {
         assertEquals(expected, func.findSecondMax(nums));
         
     }
+    
+    @Test
+    public void testFindMaxNumberEmpty() {
+        Integer[] nums = {};
+        expected = 0;
+        
+        assertEquals(expected, func.findSecondMax(nums));
+        
+    }
+    
+    @Test
+    public void testFindMaxNumberDuplicated() {
+        Integer[] nums = {6, 5, 4, 1, 3, 5};
+        expected = 5;
+        
+        assertEquals(expected, func.findSecondMax(nums));
+        
+    }
 }
