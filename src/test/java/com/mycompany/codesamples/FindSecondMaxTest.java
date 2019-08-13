@@ -43,4 +43,13 @@ public class FindSecondMaxTest {
         assertEquals(expected, func.findSecondMax(nums));
         
     }
+    
+    @Test
+    public void testFindMaxNumberDuplicated2() {
+        Integer[] nums = {6, 6, 4, 5, 3, 5};
+        expected = 5;
+        
+        assertEquals(expected, func.findSecondMax(nums));
+        
+    }
 }
