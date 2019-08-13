@@ -20,6 +20,8 @@ public class FindSecondMax {
                 if (nums[i] > maxOne) {
                     maxTwo = maxOne;
                     maxOne = nums[i];
+                } else if (nums[i] > maxTwo && nums[i] != maxOne) {
+                    maxTwo = nums[i];
                 }
             }
         }
