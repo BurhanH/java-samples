@@ -45,11 +45,11 @@ public class DuckDuckGoTest {
     public void testDuckDuckGo() {
         driver.get("https://duckduckgo.com");
         
-        homePage = new DuckDuckGoPage(this.driver);
+        homePage = new DuckDuckGoPage(driver);
         homePage.setSearch("DuckDuckGo");
         homePage.clickSearch();
         
-        resultPage = new DuckDuckGoResultPage(this.driver);
+        resultPage = new DuckDuckGoResultPage(driver);
         resultPage.getResults();
     }
 }
