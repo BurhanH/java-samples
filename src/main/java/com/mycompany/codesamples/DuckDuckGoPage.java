@@ -11,9 +11,7 @@ import org.openqa.selenium.By;
  *
  * @author baur
  */
-public class DuckDuckGoPage{
-    
-    final WebDriver driver;
+public class DuckDuckGoPage extends Page {
     
     By input = By.id("search_form_input_homepage");
     By button = By.id("search_button_homepage");
@@ -23,10 +21,10 @@ public class DuckDuckGoPage{
     }
     
     public void setSearch(String strText) {
-        this.driver.findElement(input).sendKeys(strText); 
+        driver.findElement(input).sendKeys(strText); 
     }
     
     public void clickSearch() {
-        this.driver.findElement(button).click();
+        driver.findElement(button).click();
     }
 }

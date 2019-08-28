@@ -13,8 +13,7 @@ import org.openqa.selenium.WebElement;
  *
  * @author baur
  */
-public class DuckDuckGoResultPage {
-    final WebDriver driver;
+public class DuckDuckGoResultPage extends Page {
     
     By results = By.cssSelector(".result__title");
     
