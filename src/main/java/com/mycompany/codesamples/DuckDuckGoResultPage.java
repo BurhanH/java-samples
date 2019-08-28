@@ -22,6 +22,6 @@ public class DuckDuckGoResultPage extends Page {
     }
     
     public List<WebElement> getResults() {
-        return this.driver.findElements(results);
+        return driver.findElements(results);
     }
 }
