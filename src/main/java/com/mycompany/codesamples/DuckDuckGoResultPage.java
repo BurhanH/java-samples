@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
  *
  * @author baur
  */
-public class DuckDuckGoResultPage extends Page {
+public final class DuckDuckGoResultPage extends Page {
     
     By results = By.cssSelector(".result__title");
     
