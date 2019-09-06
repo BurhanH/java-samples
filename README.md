@@ -12,7 +12,7 @@ The idea is show my knowledge and an ability write Java code. Plus enhance codin
 
 I write a simple algorithm on Java by adding one realization. Definitely, before writing actual code, I prepare a unit test for it. Then I push the code as PR into the main repository. And after some time (approximately 2-4 minutes) checking results. I mean check Travis CI (Are there errors?), check Codacity (Does my PR up to coding standards?). If there are no errors I merge the PR into the master branch and those changes become a part of the main repository. If there are errors I make new commit into the PR to fix errors. Then I repeat a process from step 4 (sentence 4 of this paragraph) until changes will be merged with the master branch.
 
-### Table of contents
+### Table of content
 1.  Primitive types [class](https://github.com/BurhanH/java-samples/blob/master/src/main/java/com/mycompany/codesamples/PrimitiveTypes.java)
 2.  Counter [class](https://github.com/BurhanH/java-samples/blob/master/src/main/java/com/mycompany/codesamples/Counter.java), [demo](https://github.com/BurhanH/java-samples/blob/master/src/main/java/com/mycompany/codesamples/CounterDemo.java), 6 unit [tests](https://github.com/BurhanH/java-samples/blob/master/src/test/java/com/mycompany/codesamples/CounterTest.java)
 3.  FindMax [class](https://github.com/BurhanH/java-samples/blob/master/src/main/java/com/mycompany/codesamples/FindMax.java), [demo](https://github.com/BurhanH/java-samples/blob/master/src/main/java/com/mycompany/codesamples/FindMaxDemo.java), 6 unit [tests](https://github.com/BurhanH/java-samples/blob/master/src/test/java/com/mycompany/codesamples/FindMaxTest.java)
