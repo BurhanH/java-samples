@@ -11,7 +11,7 @@ import org.openqa.selenium.By;
  *
  * @author baur
  */
-public class DuckDuckGoPage extends Page {
+public final class DuckDuckGoPage extends Page {
     
     By input = By.id("search_form_input_homepage");
     By button = By.id("search_button_homepage");
