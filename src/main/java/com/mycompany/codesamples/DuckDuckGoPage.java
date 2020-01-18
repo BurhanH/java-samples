@@ -7,6 +7,7 @@ package com.mycompany.codesamples;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 /**
  *
  * @author baur
@@ -14,7 +15,6 @@ import org.openqa.selenium.By;
 public final class DuckDuckGoPage extends Page {
     
     By input = By.cssSelector("#search_form_homepage_top > input.js-search-input.search__input--adv");
-    By button = By.id("search_button_homepage");
     
     public DuckDuckGoPage(WebDriver driver) {
         this.driver = driver;
@@ -24,7 +24,7 @@ public final class DuckDuckGoPage extends Page {
         driver.findElement(input).sendKeys(strText); 
     }
     
-    public void clickSearch() {
-        driver.findElement(button).click();
+    public void Search() {
+        driver.findElement(input).sendKeys(Keys.ENTER);
     }
 }
