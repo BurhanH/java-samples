@@ -13,7 +13,7 @@ import org.openqa.selenium.By;
  */
 public final class DuckDuckGoPage extends Page {
     
-    By input = By.id("search_form_input_homepage");
+    By input = By.className("js-search-input search__input--adv"); // id = search_form_input_homepage
     By button = By.id("search_button_homepage");
     
     public DuckDuckGoPage(WebDriver driver) {
