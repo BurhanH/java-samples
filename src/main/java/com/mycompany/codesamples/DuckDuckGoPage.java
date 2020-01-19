@@ -24,7 +24,7 @@ public final class DuckDuckGoPage extends Page {
         driver.findElement(input).sendKeys(strText); 
     }
     
-    public void Search() {
+    public void search() {
         driver.findElement(input).sendKeys(Keys.ENTER);
     }
 }
